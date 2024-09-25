@@ -23,6 +23,8 @@ html {
 body {
 
     background-color: white;
+    margin: 0;
+    overflow-x: hidden;
 }
 .text {
     color: black;
@@ -139,6 +141,7 @@ p.header{
     width:100%;
     flex-grow: 1;
     justify-content:space-evenly;
+    margin-bottom: 150px;
 }
 .bordered-flex-container {
     display: flex;
